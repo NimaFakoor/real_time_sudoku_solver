@@ -21,6 +21,7 @@
 
 - For a Demo and Explanation of how this application works, please watch my Youtube video: https://www.youtube.com/watch?v=uUtw6Syic6A
 - You will need: Python 3, OpenCV 4, Tensorflow >= 2.1.0 and Keras.
+- main.py is the entry of the application.
 
 # 3/ How can you run it?
 
