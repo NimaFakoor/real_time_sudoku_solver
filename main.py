@@ -23,6 +23,9 @@ cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 cap.set(3, 1280)    # HD Camera
 cap.set(4, 720)
 
+#cap = cv2.VideoCapture("test/test.png")
+#cap = cv2.VideoCapture("test/test.mp4")
+
 # Loading model (Load weights and configuration seperately to speed up model.predict)
 input_shape = (28, 28, 1)
 num_classes = 9
@@ -54,5 +57,5 @@ while(True):
         break
 
 cap.release()
-out.release()
+#out.release()
 cv2.destroyAllWindows()
